@@ -1,0 +1,389 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.eot);
+  src: url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.eot?#iefix) format("embedded-opentype"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.otf) format("opentype"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.svg) format("svg"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.ttf) format("truetype"),
+      url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.woff) format("woff"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("fonts/Gilroy-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/Gilroy-SemiBold.otf") format("opentype"),
+    /* Open Type Font */ url("fonts/Gilroy-SemiBold.svg") format("svg"),
+    /* Legacy iOS */ url("fonts/Gilroy-SemiBold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/Gilroy-SemiBold.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/Gilroy-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Regular.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Inter-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/Inter-Regular.otf") format("opentype"),
+    /* Open Type Font */ url("fonts/Inter-Regular.svg") format("svg"),
+    /* Legacy iOS */ url("fonts/Inter-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/Inter-Regular.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/Inter-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+.inner_div{
+    margin: 0 auto;
+    width:1024px;
+    align-items:center;
+    justify-content: space-between;
+}
+.page_header{
+    background-color: blueviolet;
+    padding:15px;
+    display:flex
+}
+.phone_number{
+  margin: 5px 0px 0px 5px;
+  font-family: "Gilroy-SemiBold";
+  color:#ffffff;
+}
+.sign_in{
+  background-color: rgb(113, 8, 212);
+  font-family: "Gilroy-SemiBold";
+  border-radius: 5px;
+  border:none
+}
+.page_right{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.page_left{
+  display: flex;
+  width:50%;
+}
+.divider{
+  width:1px;
+  height:20px;
+  margin: 0 10px 0 10px;
+  background-color: #ffffff;
+}
+.header_text{
+  color:#ffffff;
+  font-family:"Gilroy-SemiBold";
+}
+.dialpad{
+  display:flex;
+  align-items:center;
+  text-decoration: none;
+}
+.page_header_bottom{
+  background-color: blueviolet;
+  padding:0px 15px 0px 15px;
+  display:flex;
+  border-top: 5px solid rgba(118, 41, 190, 0.616);
+}
+.inner_page{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.page_bottom_left{
+  width: 25%;
+}
+.logo{
+  margin-top:25px;
+}
+.page_bottom_right{
+  width:75%;
+  display: flex;
+}
+.pbottom_text{
+  margin:40px 20px 0 0px;
+  font-family:"Gilroy-SemiBold";
+  font-size: 20px;
+  color: #ffffff;
+}
+.pbottom_img{
+  margin-top: 30px;
+  margin-left: -10px;
+}
+.pbottom_input{
+  font-family:"Gilroy-SemiBold";
+  font-size: 16px;
+  align-items: center ;
+  width: 100%;
+  padding:10px 15px;
+  height: auto;
+}
+.shopping{
+  width:100%;
+  display: flex;
+  background-color: blue;
+}
+.pbottom_shop{
+  font-family:"Gilroy-SemiBold";
+  font-size: 20px;
+  color: #ffffff;
+  align-self: center;
+}
+.free_shipping{
+  background-color: rgb(208, 207, 206);
+  width:100%;
+  align-items: center;
+  display: flex;
+  padding:10px 0px;
+}
+.free_shipping_text{
+  font-family:"Gilroy-SemiBold";
+  font-size: 16px;
+  align-self: center;
+  margin-left: 312px;
+}
+.void_link{
+  font-family:"Gilroy-SemiBold";
+  font-size: 16px;
+  margin-left: 30px;
+}
+.tshirt{
+  width:100%;
+  display:flex;
+  margin-top:40px;
+  justify-content: space-between;
+}
+.tshirt_left{
+  width:50%;
+  position: relative;
+}
+.tshirt_right{
+  width:35%;
+  background-color: lightgrey;
+  padding: 20px;
+}
+.tshirt_img{
+  width:100%;
+  margin-left: 10px;
+}
+.tshirt_right_text{
+  font-size: 40px;
+  font-family: "Gilroy-SemiBold";
+ /*margin-left: 150px;*/
+}
+.input_top_text{
+  font-family: "Gilroy-SemiBold";
+  margin: 30px 0px 20px 0px;
+}
+.tshirt_input{
+  padding: 10px;
+  width: 300px;
+}
+.page_bottom{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(23, 22, 22);
+  padding: 40px 0px 20px 0px;
+  align-items: center;
+}
+.offers{
+  font-size: 30px;
+  color: grey;
+  font-family: "Gilroy-SemiBold";
+}
+.email{
+  margin-left: 20px;
+  padding: 10px;
+  background-color: #333;
+  border:none;
+  width:200px;
+  font-size: 16px;
+  color:#f1f1f1;
+}
+.sign_up{
+  padding:10px;
+  margin-left:20px;
+  border-radius:15px;
+  border: none;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 50%, rgba(255,255,255,1) 100%);
+}
+.bottom_tab{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(23, 22, 22);
+  padding: 40px 0px 20px 0px;
+  align-items: center;
+}
+.bottom_text{
+  font-family:"Gilroy-SemiBold";
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 90px;
+  margin-right: 40px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(23, 22, 22);
+  padding: 40px 0px 20px 0px;
+  align-items: center;
+}
+.footer_text{
+  font-family:"Gilroy-SemiBold";
+  margin-left: 90px;
+  margin-right: 40px;
+  color:grey;
+}
+.tshirt_button{
+  padding:10px;
+  margin-top:20px;
+  border-radius:15px;
+  border: none;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 50%, rgba(255,255,255,1) 100%);
+}
+#name{
+  font-family:"Gilroy-SemiBold";
+  font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+}
+#number{
+  font-family:"Gilroy-SemiBold";
+  font-size: 40px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

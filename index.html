@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" type="text/css" href="style.css" as="style"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Tshirt Customiser</title>
+   
+</head>
+<body>
+<div class="inner_div">
+    <header class="page_header">
+        <div class="page_left">
+        <a class="dialpad" href="tel:1800121234">
+            <img class="phone_image" alt="Phone" src="images/phone.svg">
+            <span class="phone_number">1 800 123 1234</span>
+        </a>
+        </div>
+        <div class="page_right">
+        <button class="sign_in">Sign In</button>
+        <span class="divider"></span>
+        <h1 class="header_text">My Account</h1>
+        <span class="divider"></span>
+        <h1 class="header_text">Track Order</h1>
+        <span class="divider"></span>
+        <h1 class="header_text">Order History</h1>
+        </div>
+    </header>
+    <nav class="page_header_bottom">
+        <div class="inner_page">
+           <div class="page_bottom_left">
+            <img class="logo" alt="Logo" src="images/logo.png">
+           </div>
+           <div class="page_bottom_right">
+            <p class="pbottom_text">Shop</p>
+            <img class="pbottom_img" alt="Dropdown Arrow" src="images/dropdown.svg">
+            <p class="pbottom_text">Create</p>
+            <img class="pbottom_img" alt="Dropdown Arrow" src="images/dropdown.svg">
+            <p class="pbottom_text">Sell</p>
+            <img class="pbottom_img" alt="Dropdown Arrow" src="images/dropdown.svg">
+            <input class="pbottom_input" placeholder="Search">
+            <div class="shopping">
+                <img class="shopping_img" alt="Cart" src="images/cart.svg"> 
+            <p class="pbottom_shop">0 Items</p>
+            </div>
+           </div>
+        </div>
+    </nav>
+    <div class="free_shipping">
+        <h1 class="free_shipping_text">FREE SHIPPING On All Orders Over $50</h1>
+        <a class="void_link" href="javascript:void(0);">
+            View Details
+        </a>
+    </div>
+    <div class="tshirt">
+        <div class="tshirt_left">
+            <h1 id="name"> &nbsp;</h1>
+            <h1 id="number"> &nbsp;</h1>
+        <img class="tshirt_img" alt="Tshirt" src="images/tshirt.jpeg">
+        </div>
+        <div class="tshirt_right">
+            <h1 class="tshirt_right_text">T Shirt Text</h1>
+            <h1 class="input_top_text">Name</h1>
+            <input class="tshirt_input" id="myInput" placeholder="Name">
+            <h1 class="input_top_text">Number</h1>
+            <input class="tshirt_input" type="number" id="myInput2" placeholder="Number">
+            <button class="tshirt_button" onclick="getInputValue()"> Click To Customise</button>
+        </div>
+    </div>
+    <div class="page_bottom">
+        <h1 class="offers">Get Great Offers!</h1>
+        <input class="email" placeholder="Enter Your Email">
+        <button class="sign_up">Sign Up!</button> 
+    </div>
+    <div class="bottom_tab">
+        <h1 class="bottom_text">About Us</h1>
+        <h1 class="bottom_text">Contact Us</h1>
+        <h1 class="bottom_text">Track My Order</h1>
+        <h1 class="bottom_text">Help</h1>
+</div>
+    <div class="footer">
+        <h1 class="footer_text">Facebook</h1>
+        <h1 class="footer_text">Twitter</h1>
+    </div>
+    <div class="footer">
+        <h1 class="footer_text">Use of this web site constitutes acceptance of the User Agreement  Privacy Policy</h1>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
